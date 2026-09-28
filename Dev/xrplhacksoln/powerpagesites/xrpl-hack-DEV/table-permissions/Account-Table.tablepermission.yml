@@ -1,0 +1,20 @@
+accountrelationship: 
+adx_entitypermission_webrole:
+- 192e0161-6b3d-4491-86d0-9c7d35f45050
+append: true
+appendto: false
+childTablePermissions: []
+contactrelationship: 
+create: false
+delete: false
+entitylogicalname: account
+entityname: Account Table
+id: 167773de-cfc1-4ffb-92d6-c67daef3ed5c
+name: Account Table
+parententitypermission: 
+parentrelationship: 
+permissionfetchxml: 
+read: true
+scope: 756150000
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2
+write: false

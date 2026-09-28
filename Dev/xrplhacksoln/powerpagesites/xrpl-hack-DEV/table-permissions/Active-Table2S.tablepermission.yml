@@ -1,0 +1,20 @@
+accountrelationship: 
+adx_entitypermission_webrole:
+- 192e0161-6b3d-4491-86d0-9c7d35f45050
+append: true
+appendto: true
+childTablePermissions: []
+contactrelationship: xrplhack_table2_Requestor_contact
+create: true
+delete: false
+entitylogicalname: xrplhack_table2
+entityname: Active Table2S
+id: 7ebe7926-2cc1-4b42-b1c8-4620b2eb4f1f
+name: Active Table2S
+parententitypermission: 
+parentrelationship: 
+permissionfetchxml: 
+read: true
+scope: 756150001
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2
+write: true

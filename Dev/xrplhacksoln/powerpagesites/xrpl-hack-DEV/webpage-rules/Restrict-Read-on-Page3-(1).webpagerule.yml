@@ -1,0 +1,8 @@
+adx_webpageaccesscontrolrule_webrole:
+- 91c2d783-feb8-f111-aaae-002248d5366f
+id: 4e9360d8-ac6b-9499-401b-a0538988a4bb
+name: Restrict Read on Page3 (1)
+right: 2
+scope: 1
+webpageid: ed506737-f59b-d984-1eab-da6823c6d6ef
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2

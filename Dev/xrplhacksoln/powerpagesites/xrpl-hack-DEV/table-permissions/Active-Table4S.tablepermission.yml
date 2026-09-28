@@ -1,0 +1,20 @@
+accountrelationship: 
+adx_entitypermission_webrole:
+- 192e0161-6b3d-4491-86d0-9c7d35f45050
+append: true
+appendto: true
+childTablePermissions: []
+contactrelationship: xrplhack_table4_BorrowerPrimaryContact_contact
+create: true
+delete: false
+entitylogicalname: xrplhack_table4
+entityname: Active Table4S
+id: fd9b9102-5b54-4102-8ee1-c5322b3c849f
+name: Active Table4S
+parententitypermission: 
+parentrelationship: 
+permissionfetchxml: 
+read: true
+scope: 756150001
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2
+write: true

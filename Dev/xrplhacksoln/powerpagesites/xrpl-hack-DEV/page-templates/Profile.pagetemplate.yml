@@ -1,0 +1,8 @@
+entityname: adx_webpage
+id: 98604b71-4371-48c5-8675-5fd656558e90
+isdefault: false
+name: Profile
+rewriteurl: ~/Pages/Profile.aspx
+type: 756150000
+usewebsiteheaderandfooter: true
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2

@@ -1,0 +1,5 @@
+Entity:
+  Name:
+    '@LocalizedName': Approval Response
+    '@OriginalName': Approval Response
+    '#text': msdyn_flow_approvalresponse
