@@ -30,6 +30,9 @@ RootComponents:
   - '@type': 1
     '@schemaName': xrplhack_table5
     '@behavior': 0
+  - '@type': 1
+    '@schemaName': xrplhack_table6
+    '@behavior': 0
   - '@type': 29
     '@id': '{4277acb8-60bb-f111-aaae-002248d5366f}'
     '@behavior': 0
