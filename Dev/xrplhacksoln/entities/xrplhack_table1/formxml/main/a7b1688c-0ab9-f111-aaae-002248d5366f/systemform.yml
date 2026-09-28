@@ -1,0 +1,160 @@
+systemform:
+  formid: '{a7b1688c-0ab9-f111-aaae-002248d5366f}'
+  IntroducedVersion: 1.0.0.1
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    '@headerdensity': HighWithControls
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{2046CBA8-2CBB-4A58-BA20-2F53F03462B7}'
+        '@IsUserDefined': 1
+        '@labelid': '{abc3e708-d09c-45bd-92c9-3b85a493b95d}'
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{8BEA7597-49F4-4133-B3C7-EB7DC4ABB774}'
+                '@labelid': '{15fe6944-8405-4e23-8508-f2a2244eb75c}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{15AFE565-1573-4360-BE87-8A4FB7A83FF4}'
+                      '@labelid': '{dff1fcbc-55ea-4f66-b52c-377f568ec6f4}'
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1033
+                      control:
+                        '@id': xrplhack_transactionnumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': xrplhack_TransactionNumber
+                  - cell:
+                      '@id': '{F2FA7791-24B4-4CEF-9710-6B8792C6E067}'
+                      '@labelid': '{2b459248-07e1-4500-be82-cb90a3e184ae}'
+                      '@visible': false
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+                  - cell:
+                      '@id': '{10c9e270-9229-4b05-8253-e0751fee54b2}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Borrower
+                          '@languagecode': 1033
+                      control:
+                        '@id': xrplhack_borrower
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': xrplhack_borrower
+                        '@disabled': false
+                  - cell:
+                      '@id': '{8d5feb98-fbfb-4bfa-bdda-eb1892a09519}'
+                      '@locklevel': 0
+                      '@colspan': 1
+                      '@rowspan': 1
+                      labels:
+                        label:
+                          '@description': Borrower Primary Contact
+                          '@languagecode': 1033
+                      control:
+                        '@id': xrplhack_borrowerprimarycontact
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': xrplhack_borrowerprimarycontact
+                        '@disabled': false
+    header:
+      '@id': '{06c5c14f-9646-4878-9bec-3d56aad1a356}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{d6b5b25f-ccdf-4d22-8419-4cbb85a1f8f7}'
+            '@showlabel': false
+            '@labelid': '{a57c0059-1ac8-4475-9dcd-7c0cf5fa5838}'
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{68958512-e8b8-4b9e-8225-e96f679ec09a}'
+            '@showlabel': false
+            '@labelid': '{a54962d3-9fa7-4f5a-a81b-149c45807985}'
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{4b9f2307-a48c-4055-8e06-88e86a71d73b}'
+            '@showlabel': false
+            '@labelid': '{198a55b6-0a4e-432a-af0d-9efe0a855ad2}'
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    footer:
+      '@id': '{448a873e-4e2e-43b5-951b-2c016f84b0b2}'
+      '@celllabelposition': Top
+      '@columns': 111
+      '@labelwidth': 115
+      '@celllabelalignment': Left
+      rows:
+        row:
+          cell:
+          - '@id': '{1003404c-7e67-4278-bac1-63f07ad58aae}'
+            '@showlabel': false
+            '@labelid': '{adf0f420-d18d-4a6c-a0d7-999e938b060d}'
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{645559aa-694e-4c36-b4ed-147d3aa9f4f4}'
+            '@showlabel': false
+            '@labelid': '{8646f243-fcfd-4918-aea1-3d1f235f7aca}'
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+          - '@id': '{0656cb91-7562-4be8-8019-773d98c31ed6}'
+            '@showlabel': false
+            '@labelid': '{fb909fc0-5925-4796-a392-09a73d69ba6e}'
+            labels:
+              label:
+                '@description': ''
+                '@languagecode': 1033
+    DisplayConditions:
+      '@Order': 1
+      '@FallbackForm': true
+      Role:
+      - '@Id': '{5F2F16BA-B4A3-F111-AAAD-7CED8D05F4F0}'
+      - '@Id': '{653416BA-B4A3-F111-AAAD-7CED8D05F4F0}'
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Pages - Table1 Form
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

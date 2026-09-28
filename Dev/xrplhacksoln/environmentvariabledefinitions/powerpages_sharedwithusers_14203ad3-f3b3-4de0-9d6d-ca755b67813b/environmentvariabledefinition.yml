@@ -1,0 +1,12 @@
+environmentvariabledefinition:
+  '@schemaname': powerpages_sharedwithusers_14203ad3-f3b3-4de0-9d6d-ca755b67813b
+  displayname:
+    '@default': 'Power Pages Site Shared Users '
+    label:
+      '@description': 'Power Pages Site Shared Users '
+      '@languagecode': 1033
+  introducedversion: 1.0.0.0
+  iscustomizable: 1
+  isrequired: 0
+  secretstore: 0
+  type: 100000000

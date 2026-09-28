@@ -1,0 +1,9 @@
+Entity:
+  Name:
+    '@LocalizedName': Note
+    '@OriginalName': ''
+    '#text': Annotation
+  EntityInfo:
+    entity:
+      '@Name': Annotation
+      '@unmodified': 1

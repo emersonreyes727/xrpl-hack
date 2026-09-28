@@ -1,0 +1,5 @@
+description: Specifies the default value for the SameSite attribute on HTTP cookies set by the portal.
+id: d325d4b5-b31d-4c90-a3fe-2b24496a07c8
+name: HTTP/SameSite/Default
+value: Lax
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2

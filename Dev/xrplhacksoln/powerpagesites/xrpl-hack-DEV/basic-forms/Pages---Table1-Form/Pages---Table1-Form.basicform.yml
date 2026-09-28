@@ -1,0 +1,32 @@
+attachfile: true
+attachfileaccept: image/*
+attachfileacceptextensions: .doc, .dot, .wbk, .docx, .docm, .dotx, .dotm, .docb, .xls, .xlt, .xlm, .xlsx, .xlsm, .xltx, .xltm, .ppt, .pot, .pps, .pptx, .pptm, .potx, .potm, .ppam, .ppsx, .ppsm, .sldx, .sldm, .pdf
+attachfileallowmultiple: true
+attachfilelabel: '[{"LCID":1033,"Value":""}]'
+attachfilemaxsize: 
+attachfilerestrictaccept: true
+attachfilesaveoption: 756150000
+attachfilestoragelocation: 756150000
+captcharequired: false
+containername: ''
+entityFormMetadatas:
+- a7d1e4ca-0eb9-f111-aaae-002248d5366f
+entityname: xrplhack_table1
+entitypermissionsenabled: true
+entitysourcetype: 
+filecontent: 
+formname: Pages - Table1 Form
+hideformonsuccess: true
+id: 21a1284f-c076-4fc7-9bab-309707faec4b
+lcid: 1033
+maximumnooffiles: 5
+mode: 100000000
+name: Pages - Table1 Form
+onsuccess: 756150000
+recordidquerystringparametername: 
+redirecturl: 
+redirectwebpage: 
+showcaptchaforauthenticatedusers: false
+storageaccountname: ''
+successmessage: '[{"LCID":1033,"Value":""}]'
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2

@@ -1,0 +1,44 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{589bc5a6-a4e0-4fa4-80d6-e0d2891dd604}'
+  layoutxml:
+    grid:
+      '@name': xrplhack_table5s
+      '@jump': xrplhack_transactionnumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 0
+      row:
+        '@name': xrplhack_table5
+        '@id': xrplhack_table5id
+        cell:
+        - '@name': xrplhack_transactionnumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 64
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': xrplhack_table5
+        attribute:
+        - '@name': xrplhack_table5id
+        - '@name': xrplhack_transactionnumber
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Table5 Lookup View
+      '@languagecode': 1033

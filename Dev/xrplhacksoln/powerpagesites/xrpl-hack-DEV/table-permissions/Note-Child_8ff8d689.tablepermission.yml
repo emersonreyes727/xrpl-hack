@@ -1,0 +1,20 @@
+accountrelationship: 
+adx_entitypermission_webrole:
+- 192e0161-6b3d-4491-86d0-9c7d35f45050
+append: true
+appendto: true
+childTablePermissions: []
+contactrelationship: 
+create: true
+delete: false
+entitylogicalname: annotation
+entityname: Note-Child
+id: 88812820-3c1b-4df1-8f70-b762c3547973
+name: Note-Child
+parententitypermission: b2dbf252-53cc-4e9b-b185-7aceb734cfa8
+parentrelationship: xrplhack_table3_Annotations
+permissionfetchxml: 
+read: true
+scope: 756150003
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2
+write: true
