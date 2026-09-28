@@ -1,0 +1,16 @@
+adddescription: false
+attributelogicalname: xrplhack_requestor
+descriptionposition: 100000000
+entityform: 1d188b4d-feef-4ff1-885d-3561feb06bcf
+entityformforcreate: 1d188b4d-feef-4ff1-885d-3561feb06bcf
+fieldisrequired: false
+id: d7c149df-0eb9-f111-aaae-002248d5366f
+ignoredefaultvalue: false
+name: Pages - Table2 Form xrplhack_requestor
+onsavefromattribute: contactid
+onsavetype: 100000002
+randomizeoptionsetvalues: false
+setvalueonsave: true
+type: 100000000
+useattributedescriptionproperty: true
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2

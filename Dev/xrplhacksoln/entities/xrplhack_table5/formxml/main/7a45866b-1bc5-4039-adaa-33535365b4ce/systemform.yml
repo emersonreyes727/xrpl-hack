@@ -1,0 +1,60 @@
+systemform:
+  formid: '{7a45866b-1bc5-4039-adaa-33535365b4ce}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{03A97AFF-5265-496D-BC92-3601AF0403E1}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': General
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{AB678016-8390-4087-BEEC-D7F2BF42E93B}'
+                labels:
+                  label:
+                    '@description': General
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{90ADB0B2-0189-4C61-A64A-CD143E1A04B7}'
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1033
+                      control:
+                        '@id': xrplhack_transactionnumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': xrplhack_TransactionNumber
+                  - cell:
+                      '@id': '{F1C66FC5-9B23-470F-9B2A-E1CB9917A9BE}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033

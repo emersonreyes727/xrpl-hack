@@ -1,0 +1,47 @@
+RootComponents:
+  RootComponent:
+  - '@type': 1
+    '@schemaName': account
+    '@behavior': 2
+  - '@type': 1
+    '@schemaName': annotation
+    '@behavior': 2
+  - '@type': 1
+    '@schemaName': contact
+    '@behavior': 2
+  - '@type': 1
+    '@schemaName': msdyn_flow_approval
+    '@behavior': 2
+  - '@type': 1
+    '@schemaName': msdyn_flow_approvalresponse
+    '@behavior': 2
+  - '@type': 1
+    '@schemaName': xrplhack_table1
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': xrplhack_table2
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': xrplhack_table3
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': xrplhack_table4
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': xrplhack_table5
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{4277acb8-60bb-f111-aaae-002248d5366f}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{777e5671-61bb-f111-aaae-002248d5366f}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{ab29e583-60bb-f111-aaae-002248d5366f}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{b0d12c07-61bb-f111-aaae-002248d5366f}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{be61610f-61bb-f111-aaae-002248d5366f}'
+    '@behavior': 0

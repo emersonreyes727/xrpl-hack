@@ -1,0 +1,56 @@
+systemform:
+  formid: '{e7f80d61-2e4c-4022-adb7-58c4daf9c630}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{3A2844C7-2943-4DD8-9B72-4A59B0D0EE46}'
+        '@IsUserDefined': 1
+        labels:
+          label:
+            '@description': ''
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showlabel': false
+                '@showbar': false
+                '@IsUserDefined': 0
+                '@id': '{9171E56E-13D2-4922-8C7E-98C9A22BBE5D}'
+                labels:
+                  label:
+                    '@description': GENERAL
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{AA49A3F1-E8DD-42A1-B89D-3695A997CBBC}'
+                      labels:
+                        label:
+                          '@description': ''
+                          '@languagecode': 1033
+                      control:
+                        '@id': xrplhack_transactionnumber
+                        '@classid': '{4273EDBD-AC1D-40d3-9FB2-095C621B552D}'
+                        '@datafieldname': xrplhack_TransactionNumber
+                  - cell:
+                      '@id': '{F4D3C672-1876-48CB-8F16-EB82C0C9D33A}'
+                      labels:
+                        label:
+                          '@description': Owner
+                          '@languagecode': 1033
+                      control:
+                        '@id': ownerid
+                        '@classid': '{270BD3DB-D9AF-4782-9025-509E298DEC0A}'
+                        '@datafieldname': ownerid
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033

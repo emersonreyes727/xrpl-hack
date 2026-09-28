@@ -1,0 +1,16 @@
+adddescription: false
+attributelogicalname: xrplhack_requestor
+descriptionposition: 100000000
+entityform: 0b23106e-a5e3-4959-b404-bdca0e8638b0
+entityformforcreate: 0b23106e-a5e3-4959-b404-bdca0e8638b0
+fieldisrequired: false
+id: 9a32d3eb-0eb9-f111-aaae-002248d5366f
+ignoredefaultvalue: false
+name: Pages - Table3 Form xrplhack_requestor
+onsavefromattribute: contactid
+onsavetype: 100000002
+randomizeoptionsetvalues: false
+setvalueonsave: true
+type: 100000000
+useattributedescriptionproperty: true
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2

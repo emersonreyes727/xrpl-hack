@@ -1,0 +1,53 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 1
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{bc57cb35-af85-4cf3-b503-b0fb9b84f59b}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': xrplhack_transactionnumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': xrplhack_table3id
+        cell:
+        - '@name': xrplhack_transactionnumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 4
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': xrplhack_table3
+        attribute:
+        - '@name': xrplhack_table3id
+        - '@name': xrplhack_transactionnumber
+        - '@name': createdon
+        order:
+          '@attribute': xrplhack_transactionnumber
+          '@descending': false
+        filter:
+        - '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+        - '@type': or
+          '@isquickfindfields': 1
+          condition:
+            '@attribute': xrplhack_transactionnumber
+            '@operator': like
+            '@value': '{0}'
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Quick Find Active Table3S
+      '@languagecode': 1033

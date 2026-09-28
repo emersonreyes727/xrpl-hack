@@ -1,0 +1,51 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{e29562a1-2524-4016-9b03-dcd5b6b56c5c}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': xrplhack_transactionnumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': xrplhack_table4id
+        cell:
+        - '@name': xrplhack_borrower
+          '@width': 100
+        - '@name': xrplhack_borrowerprimarycontact
+          '@width': 190
+        - '@name': xrplhack_requestor
+          '@width': 100
+        - '@name': createdon
+          '@width': 105
+  querytype: 0
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': xrplhack_table4
+        attribute:
+        - '@name': xrplhack_table4id
+        - '@name': createdon
+        - '@name': xrplhack_borrower
+        - '@name': xrplhack_borrowerprimarycontact
+        - '@name': xrplhack_requestor
+        - '@name': createdon
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Active Table4S
+      '@languagecode': 1033

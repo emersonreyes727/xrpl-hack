@@ -1,0 +1,16 @@
+adddescription: false
+attributelogicalname: xrplhack_borrowerprimarycontact
+descriptionposition: 100000000
+entityform: cc969a15-0fa8-446b-8505-1943a4f933b8
+entityformforcreate: cc969a15-0fa8-446b-8505-1943a4f933b8
+fieldisrequired: false
+id: ecb6b31a-0fb9-f111-aaae-002248d5366f
+ignoredefaultvalue: false
+name: Pages - Table5 Form xrplhack_borrowerprimarycontact
+onsavefromattribute: contactid
+onsavetype: 100000002
+randomizeoptionsetvalues: false
+setvalueonsave: true
+type: 100000000
+useattributedescriptionproperty: true
+websiteid: 5a8426a2-2bb5-40da-be8f-cf9fa7dc4ed2

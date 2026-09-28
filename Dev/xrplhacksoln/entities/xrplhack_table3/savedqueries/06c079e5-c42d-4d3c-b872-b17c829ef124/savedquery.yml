@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{06c079e5-c42d-4d3c-b872-b17c829ef124}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': xrplhack_transactionnumber
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': xrplhack_table3id
+        cell:
+        - '@name': xrplhack_transactionnumber
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': xrplhack_table3
+        attribute:
+        - '@name': xrplhack_table3id
+        - '@name': xrplhack_transactionnumber
+        - '@name': createdon
+        order:
+          '@attribute': xrplhack_transactionnumber
+          '@descending': false
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Table3 Advanced Find View
+      '@languagecode': 1033
